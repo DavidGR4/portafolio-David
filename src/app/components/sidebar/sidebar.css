@@ -1,0 +1,46 @@
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  background: #040b14;
+  z-index: 9997;
+  padding: 20px 15px;
+  overflow-y: auto;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 8px solid rgba(255, 255, 255, 0.15);
+}
+
+.social-links a {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background: #149ddd !important;
+  color: #fff;
+}
+
+.nav-link {
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.nav-link i {
+  font-size: 18px;
+  color: #149ddd;
+}
